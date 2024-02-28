@@ -1,1 +1,15 @@
 site_name: My Docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+  features:
+    - navigation.path
+    - toc.integrate   
+    - navigation.top
+    - search.highlight
+    - navigation.tracking
+    - navigation.indexes 
+  plugins:
+  - search
