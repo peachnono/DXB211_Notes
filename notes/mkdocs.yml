@@ -16,6 +16,6 @@ theme:
      - navigation.sections
   plugins:
   - search
-repo_url: http://peachnono/DXB211_notes
+repo_url: https://github.com/peachnono/DXB211_Notes
 markdown_extensions:
   - attr_list
