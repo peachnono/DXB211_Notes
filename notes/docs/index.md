@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+<!-- index.md -->
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<!-- This is a comment in HTML, it won't be rendered -->
 
-## Commands
+# DXB211 - Creative Coding Notes
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This site contains notes from the unit DXB211 - Creative Coding at Queensland University of Technology. This website was written by [me]() for quick revision and reference.
 
-## Project layout
+> **Note:** This website is not intended to replace the tutorials and lectures and should not be used as such. It is crucial to attend classes and refer to official course materials for comprehensive learning.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[DXB211 on Canvas](#){ .md-button }
+
+---

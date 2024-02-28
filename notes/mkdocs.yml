@@ -1,9 +1,10 @@
-site_name: My Docs
+site_name: DXB211 Notes
 theme:
   name: material
   palette:
     scheme: slate
     primary: black
+    accent: deep purple
   features:
     - navigation.path
     - toc.integrate   
@@ -11,5 +12,10 @@ theme:
     - search.highlight
     - navigation.tracking
     - navigation.indexes 
+    - toc.follow
+     - navigation.sections
   plugins:
   - search
+repo_url: http://peachnono/DXB211_notes
+markdown_extensions:
+  - attr_list
