@@ -1,16 +1,27 @@
 /* Custom header color */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .md-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #000000;
+    padding: 10px; /* Adjust as needed */
+}
+
+.md-header__title {
+    font-size: 24px; /* Adjust this value to your desired font size */
+    font-family: 'Bebas Neue', serif;
+    color: #f7379d;
 }
 
 .md-tabs {
     background-color: #000000;
+    /* Additional styling for tabs if needed */
 }
 
 :root {
     --md-primary-fg-color:        #f7379d;
     --md-primary-fg-color--light: #ECB7B7;
     --md-primary-fg-color--dark:  #f7379d;
-  }
-
-
+}
