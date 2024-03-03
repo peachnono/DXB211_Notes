@@ -1,11 +1,22 @@
-site_name: DXB211 Notes
+site_name: PeachNono Notes
+nav:
+  - Home: index.md
+  - CAB301: about.md
+  - DXB211:
+      - DXB211/index.md
+      - Week 1: DXB211/week1.md
 theme:
+  icon:
+    logo: material/cards-heart
   name: material
   palette:
     scheme: slate
-    primary: black
+    primary: custom
     accent: deep purple
   features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.path
     - toc.integrate   
     - navigation.top
@@ -13,9 +24,13 @@ theme:
     - navigation.tracking
     - navigation.indexes 
     - toc.follow
-     - navigation.sections
   plugins:
   - search
 repo_url: https://github.com/peachnono/DXB211_Notes
 markdown_extensions:
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - 'custom.css'
