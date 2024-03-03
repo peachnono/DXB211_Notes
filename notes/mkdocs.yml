@@ -1,13 +1,15 @@
 site_name: PeachNono Notes
 nav:
   - Home: index.md
-  - CAB301: about.md
+  - CAB301:
+    - CAB3O1/index.md
+    - Week 1: CAB3O1/week1.md
   - DXB211:
-      - DXB211/index.md
-      - Week 1: DXB211/week1.md
+    - DXB211/index.md
+    - Week 1: DXB211/week1.md
 theme:
   icon:
-    logo: material/cards-heart
+    logo: octicons/feed-heart-16
   name: material
   palette:
     scheme: slate
@@ -26,7 +28,6 @@ theme:
     - toc.follow
   plugins:
   - search
-repo_url: https://github.com/peachnono/DXB211_Notes
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
